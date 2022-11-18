@@ -4,13 +4,12 @@ M= ()
 N=[]
 a=0
 
-
 class ticket():
     a += 1
     # to create ticket number
+    
     ticket_no = a + 2000
-    T = ticket_no
-
+    print(ticket_no)
 
 
 
@@ -18,7 +17,7 @@ class ticket():
 #to create ticket count
     def __init__():
         ticket_count = int(a)
-
+        print(ticket_count)
 
 
 
@@ -70,13 +69,13 @@ while x!=0:
         x=int(input("select options" ))
 
         if x==1:
-            i = input("enter your name")
-            j = input("enter your id")
-            k = input("enter desc")
-            l = input("enter email")
-            print("your ticket has been submitted")
-            print("ticket no is:",T )
-            ticket()
+            i = input("enter your name ")
+            j = input("enter your id ")
+            k = input("enter desc  ")
+            l = input("enter email  ")
+            print("your ticket has been submitted  ")
+            print("ticket no is " ,Ticket_no)
+        ticket()
 
         if x==2:
              display_ticket()
@@ -87,8 +86,10 @@ while x!=0:
 
         if x==4:
             input("enter ticket number to reopen")
-            ticket_open=tot_ticket-t
+            ticket_open=tot_ticket-1
+
         if x==0:
+            
             break
 
 
